@@ -44,6 +44,7 @@ $ git push heroku master  #推送到Heroku雲端平台的LINE Bot應用程式Git
 
 ## How To Use
 * 請掃下方QR Code加入好友
+
 ![](https://i.imgur.com/XdfxGcJ.png)
 * 加入好友即可和FoodLine進行對話,並輸入關鍵字"哈囉",則可開始查詢，如下圖範例
 ![](https://i.imgur.com/gVfehZy.png)

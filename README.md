@@ -49,6 +49,7 @@ $ git push heroku master  #推送到Heroku雲端平台的LINE Bot應用程式Git
 * 加入好友即可和FoodLine進行對話,並輸入關鍵字"哈囉",則可開始查詢，如下圖範例
 ![](https://i.imgur.com/gVfehZy.png)
 
+```
 FoodLinebot
 
 ├── Procfile:利用gunicorn伺服器，執行Django專案中的wsgi(web server gateway interface)檔案，來進行溝通。
@@ -71,6 +72,8 @@ FoodLinebot
 │   │   ├── settings.py:設置linebot token和static路徑
 │   │   ├── urls.py
 │   │   ├── wsgi.py
+
+```
 
 ## Demo
 

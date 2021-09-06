@@ -50,6 +50,7 @@ $ git push heroku master  #推送到Heroku雲端平台的LINE Bot應用程式Git
 ![](https://i.imgur.com/gVfehZy.png)
 
 FoodLinebot
+
 ├── Procfile:利用gunicorn伺服器，執行Django專案中的wsgi(web server gateway interface)檔案，來進行溝通。
 ├── README.md
 ├── manage.py

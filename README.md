@@ -49,27 +49,27 @@ $ git push heroku master  #推送到Heroku雲端平台的LINE Bot應用程式Git
     * 輸入關鍵字"哈囉",則可開始查詢，如下圖範例
 ![](https://i.imgur.com/gVfehZy.png)
 
-> FoodLinebot
-> ├── Procfile:利用gunicorn伺服器，執行Django專案中的wsgi(web server gateway interface)檔案，來進行溝通。
-> ├── README.md
-> ├── manage.py
-> ├── requirments.txt:架設heroku需要安裝套件環境
-> │   ├── foodlinebots
-> │   │   ├── migrations
-> │   │   ├── __init__.py
-> │   │   ├── admin.py
-> │   │   ├── apps.py
-> │   │   ├── models.py
-> │   │   ├── scraper.py:進入愛食記網站爬蟲
-> │   │   ├── tests..py
-> │   │   ├── urls.py
-> │   │   ├── views.py:控制linebot的callback function動作
-> │   ├── mylinebot
-> │   │   ├── __init__.py
-> │   │   ├── asgi.py
-> │   │   ├── settings.py:設置linebot token和static路徑
-> │   │   ├── urls.py
-> │   │   ├── wsgi.py
+FoodLinebot
+├── Procfile:利用gunicorn伺服器，執行Django專案中的wsgi(web server gateway interface)檔案，來進行溝通。
+├── README.md
+├── manage.py
+├── requirments.txt:架設heroku需要安裝套件環境
+│   ├── foodlinebots
+│   │   ├── migrations
+│   │   ├── __init__.py
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── models.py
+│   │   ├── scraper.py:進入愛食記網站爬蟲
+│   │   ├── tests..py
+│   │   ├── urls.py
+│   │   ├── views.py:控制linebot的callback function動作
+│   ├── mylinebot
+│   │   ├── __init__.py
+│   │   ├── asgi.py
+│   │   ├── settings.py:設置linebot token和static路徑
+│   │   ├── urls.py
+│   │   ├── wsgi.py
 
 ## Demo
 
